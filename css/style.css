@@ -1,0 +1,40 @@
+.container{
+    width: 350px;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.inputs-container {
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.btns-container {
+    width: 90%;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+.btn {
+    background: #3c3c3c;
+    color: #ffffff;
+    padding: 0.25rem 0.5rem;
+    font-size: 20px;
+}
+.result-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+/* .get-result{
+    margin: 20px auto;
+    display: block;
+} */
